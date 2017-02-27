@@ -9,7 +9,6 @@
 *.rej
 .libs
 .deps
-*.dirstamp
 .\#*
 \#*
 *.user
@@ -111,7 +110,7 @@ Release/
 
 /libs/curl/lib/ca-bundle.h
 /libs/esl/fs_cli
-/libs/esl/fs_ivrd
+/libs/esl/ivrd
 /libs/esl/testclient
 /libs/esl/testserver
 /libs/freetdm/detect_dtmf
@@ -170,11 +169,6 @@ Release/
 /src/mod/say/mod_say_nl/Makefile
 /src/mod/say/mod_say_th/Makefile
 /src/mod/say/mod_say_zh/Makefile
-/src/mod/languages/mod_v8/Makefile
-/src/mod/languages/mod_v8/Makefile.in
-/src/mod/languages/mod_v8/mod_v8.log
-
-src/mod/modules.inc
 
 BuildLog.htm
 
@@ -191,55 +185,10 @@ ipch/
 
 /w32/Setup/obj
 *dSYM*
+/libs/xmlrpc-c/lib/expat/xmltok/nametab.h
 
 /UpgradeLog.*
 /_UpgradeReport_Files/
 *.aps
 /w32/Library/switch_version.inc
 /w32/Setup/Fragments
-
-/libs/win32/mpg123/Win32/Debug_Generic/libmpg123.*.log
-/libs/win32/mpg123/Win32/Release_Generic/libmpg123.*.log
-/libs/win32/pthread/Win32/Debug DLL/pthread.*.log
-/libs/win32/pthread/Win32/Release DLL/pthread.*.log
-/src/mod/codecs/mod_amr/Win32/Debug Passthrough/mod_amr.*.log
-/src/mod/codecs/mod_amr/Win32/Release Passthrough/mod_amr.*.log
-/src/mod/codecs/mod_g723_1/Win32/Debug Passthrough/mod_g723_1.*.log
-/src/mod/codecs/mod_g723_1/Win32/Release Passthrough/mod_g723_1.*.log
-/src/mod/codecs/mod_g729/Win32/Debug Passthrough/mod_g729.*.log
-/src/mod/codecs/mod_g729/Win32/Release Passthrough/mod_g729.*.log
-/src/mod/directories/mod_ldap/Win32/Debug MS-LDAP/mod_ldap.*.log
-/src/mod/directories/mod_ldap/Win32/Release MS-LDAP/mod_ldap.*.log
-/src/mod/languages/mod_managed/Win32/Debug_CLR/mod_managed.*.log
-/src/mod/languages/mod_managed/Win32/Release_CLR/mod_managed.*.log
-
-/src/.dirstamp
-/src/mod/languages/mod_v8/src/.dirstamp
-
-libs/libsndfile/Scripts/build-test-tarball.mk
-libs/libsndfile/doc/libsndfile.css
-libs/libsndfile/echo-install-dirs
-libs/libsndfile/src/ALAC/.dirstamp
-libs/libsndfile/src/G72x/.dirstamp
-libs/libsndfile/src/GSM610/.dirstamp
-libs/libsndfile/src/Symbols.gnu-binutils
-libs/libsndfile/src/Symbols.static
-libs/libsndfile/src/version-metadata.rc
-libs/libsndfile/tests/pedantic-header-test.sh
-yum/RPMS
-yum/temp
-html5/verto/verto_communicator/bower_components/
-html5/verto/verto_communicator/node_modules/
-.vs/
-
-Freeswitch.2015.VC.db
-Freeswitch.2015.VC.VC.opendb
-libs/freetype/
-libs/libpng/
-libs/zlib/
-
-libs/libav/
-libs/libx264/
-
-Win32/*.msi
-x64/*.msi
